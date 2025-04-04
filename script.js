@@ -1,8 +1,8 @@
 timeJogador = ["", "", ""];
 timeComputador = ["", "", ""];
 
-forcaTimeJogador = [0, 0, 0];
-forcaTimeComputador = [0, 0, 0];
+forcaTimeJogador = 0;
+forcaTimeComputador =0;
 
 for (let i = 0; i < 3; i++) {
   escolhaJogador = prompt("Digite o nome do jogador: " + (i + 1));
